@@ -3,89 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Https Nsfwai.com</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            margin: 1rem 0;
-        }
-        nav a {
-            margin: 0 1rem;
-            text-decoration: none;
-            color: #333;
-        }
-        .content {
-            padding: 2rem;
-        }
-        .section {
-            margin: 2rem 0;
-            padding: 1rem;
-            border: 1px solid #ccc;
-            background-color: white;
-            border-radius: 8px;
-        }
-        .nsfw-warning {
-            color: red;
-            font-weight: bold;
-        }
-        .theme-selector {
-            margin-top: 2rem;
-        }
-        .theme-selector label {
-            margin-right: 1rem;
-        }
-    </style>
+    <title>NSFW AI Chatbots</title>
+    <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sfw">SFW</a></li>
+            <li><a href="#nsfw">NSFW</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<header>
-    <h1>Https Nsfwai.com</h1>
-    <p>Discover and create your own AI chatbots. SFW and NSFW sections available.</p>
-</header>
-
-<nav>
-    <a href="#sfw">SFW</a>
-    <a href="#nsfw">NSFW</a>
-</nav>
-
-<div class="content">
-    <section id="sfw" class="section">
-        <h2>SFW Section</h2>
-        <p>Explore and create safe-for-work AI chatbots.</p>
+    <!-- Main content sections -->
+    <section id="home">
+        <h1>Welcome to NSFW AI Chatbots</h1>
+        <p>A platform for creating and discovering NSFW AI chatbots.</p>
     </section>
 
-    <section id="nsfw" class="section">
-        <h2>NSFW Section <span class="nsfw-warning">18+</span></h2>
-        <p>Warning: This section contains not safe for work content. You must be 18 or older to access.</p>
+    <section id="sfw">
+        <h2>SFW Chatbots</h2>
+        <p>Explore safe-for-work chatbots created by users.</p>
     </section>
 
-    <div class="theme-selector">
-        <h3>Select Your Theme</h3>
-        <label for="theme">Choose a theme color:</label>
-        <input type="color" id="theme" name="theme" value="#333333">
-        <button onclick="applyTheme()">Apply</button>
-    </div>
-</div>
+    <section id="nsfw">
+        <h2>NSFW Chatbots</h2>
+        <p>Discover and create 18+ chatbots. <span class="warning">Warning: NSFW content.</span></p>
+    </section>
 
-<script>
-    function applyTheme() {
-        var color = document.getElementById('theme').value;
-        document.body.style.backgroundColor = color;
-    }
-</script>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 NSFW AI Chatbots</p>
+    </footer>
+
+    <!-- Script to handle dynamic theme selection -->
+    <script>
+        // JavaScript code here to handle theme selection
+    </script>
 </body>
 </html>
