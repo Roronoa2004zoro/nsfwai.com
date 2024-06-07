@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Https Nsfwai.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .section {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            background-color: white;
+            border-radius: 8px;
+        }
+        .nsfw-warning {
+            color: red;
+            font-weight: bold;
+        }
+        .theme-selector {
+            margin-top: 2rem;
+        }
+        .theme-selector label {
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Https Nsfwai.com</h1>
+    <p>Discover and create your own AI chatbots. SFW and NSFW sections available.</p>
+</header>
+
+<nav>
+    <a href="#sfw">SFW</a>
+    <a href="#nsfw">NSFW</a>
+</nav>
+
+<div class="content">
+    <section id="sfw" class="section">
+        <h2>SFW Section</h2>
+        <p>Explore and create safe-for-work AI chatbots.</p>
+    </section>
+
+    <section id="nsfw" class="section">
+        <h2>NSFW Section <span class="nsfw-warning">18+</span></h2>
+        <p>Warning: This section contains not safe for work content. You must be 18 or older to access.</p>
+    </section>
+
+    <div class="theme-selector">
+        <h3>Select Your Theme</h3>
+        <label for="theme">Choose a theme color:</label>
+        <input type="color" id="theme" name="theme" value="#333333">
+        <button onclick="applyTheme()">Apply</button>
+    </div>
+</div>
+
+<script>
+    function applyTheme() {
+        var color = document.getElementById('theme').value;
+        document.body.style.backgroundColor = color;
+    }
+</script>
+
+</body>
+</html>
